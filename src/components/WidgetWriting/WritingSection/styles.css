@@ -1,0 +1,41 @@
+.main {
+}
+.title {
+  font-weight: bold;
+  display: inline;
+}
+.count {
+  float: right;
+  opacity: 0.5;
+}
+
+.headers {
+  margin: 12px 0;
+  margin-top: 24px;
+}
+
+.action {
+}
+.action button {
+  margin-right: 12px;
+  margin-top: 12px;
+}
+.action button:first-child {
+  min-width: 200px;
+}
+
+.textarea {
+  min-height: 250px;
+  padding: 12px;
+  padding-bottom: 48px;
+  border: none;
+  background-color: white;
+  border-left: 4px solid #dcdcdc;
+  outline: none;
+  user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}

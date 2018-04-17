@@ -1,0 +1,98 @@
+@import '../variables.css';
+
+.widthAuto {
+  width: auto;
+  float: left;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.widthAutoWithSpace {
+  width: auto;
+  float: left;
+  color: white;
+  padding-left: 25px;
+}
+
+.subTitle {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+
+.intro {
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+.formContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.titleForm {
+  text-align: left;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-top: 12px;
+}
+
+.avatarContent {
+  grid-row: span 2;
+}
+
+.main {
+  grid-row: span 3;
+  padding-left: 12px;
+}
+
+.cancelButton {
+  transition: all 0.25s ease;
+  text-align: center;
+  color: #fff;
+  background-color: #cc8585;
+  border: 2px solid #cc8585;
+  border-radius: 3px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+}
+.cancelButton:hover {
+  background-color: #fff;
+  color: #cc8585;
+  border: 2px solid #cc8585;
+}
+
+.callButton {
+  margin-left: 12px;
+  transition: all 0.25s ease;
+  text-align: center;
+  color: #fff;
+  background-color: #68b78c;
+  border: 2px solid #68b78c;
+  border-radius: 3px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+}
+.callButton:hover {
+  background-color: #fff;
+  color: #68b78c;
+  border: 2px solid #68b78c;
+}
+
+.footer {
+  border-top: 1px solid gray;
+  margin-top: 12px;
+  padding-top: 12px;
+}

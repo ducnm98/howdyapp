@@ -1,0 +1,9 @@
+query {
+  reactjsGetAllNews {
+    title
+    link
+    author
+    pubDate
+    content
+  }
+}

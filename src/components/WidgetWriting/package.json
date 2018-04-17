@@ -1,0 +1,6 @@
+{
+  "name": "WidgetWriting",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./WidgetWriting.js"
+}

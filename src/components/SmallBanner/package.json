@@ -1,0 +1,6 @@
+{
+  "name": "SmallBanner",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SmallBanner.js"
+}

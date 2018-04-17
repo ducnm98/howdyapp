@@ -1,0 +1,89 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+.main {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 72px 0;
+}
+.body {
+  position: relative;
+}
+.left {}
+.right {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(40%);
+  z-index: -1;
+  background-image: url('/img/banner/city02.jpg');
+}
+
+.title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: white;
+}
+.title h1 {
+  font-size: 42px;
+  line-height: 1;
+}
+.title img {
+  display: inline-block;
+  width: 50px;
+  margin: -6px;
+  margin-right: 8px;
+}
+
+.login {
+  float: right;
+  color: white;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+.profile .username {
+  color: white;
+  display: block;
+  font-size: 14px;
+  padding-right: 6px;
+}
+
+
+@media (min-width: 992px) {
+  .main {
+    padding-bottom: 240px;
+  }
+  .bg {
+    background-image: url('/img/banner/city01.jpg');
+  }
+}

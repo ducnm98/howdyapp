@@ -1,0 +1,6 @@
+{
+  "name": "Points",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Points.js"
+}

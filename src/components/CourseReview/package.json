@@ -1,0 +1,6 @@
+{
+  "name": "CourseReview",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CourseReview.js"
+}

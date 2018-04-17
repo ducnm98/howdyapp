@@ -1,0 +1,6 @@
+{
+  "name": "SpeakingMatching",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SpeakingMatching.js"
+}
